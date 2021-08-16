@@ -1,0 +1,16 @@
+{
+  "name": "mage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+        "server": "nodemon index.js",
+        "client": "npm start --prefix app-ui",
+        "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "concurrently": "^6.2.1"
+  }
+}
